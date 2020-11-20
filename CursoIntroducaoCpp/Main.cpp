@@ -1,6 +1,23 @@
-#include  "Exercicios.h"
+#include "iostream";
+
+
+void teste(int x)
+{
+	x = 10;
+}
+
+void testePonteiro(int* x)
+{
+	*x = 10;
+}
 
 void main()
-{
-	ExecutarExercicio2();
+{	  
+	int y = 0;
+
+	testePonteiro(&y);
+
+	std::cout << "valor de y: " << y;
 }
+
+

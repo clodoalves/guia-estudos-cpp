@@ -19,6 +19,9 @@
     <Filter Include="Arquivos de Origem\Exercicios">
       <UniqueIdentifier>{9a7ff3d0-a3d5-4f3e-9914-e4ce894a1692}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\Samples\Conteudos">
+      <UniqueIdentifier>{f72965d6-9805-462c-a493-64e052a104c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -36,6 +39,30 @@
     <ClCompile Include="ListaExercicios1.cpp">
       <Filter>Arquivos de Origem\Exercicios</Filter>
     </ClCompile>
+    <ClCompile Include="ListaExercicios4.cpp">
+      <Filter>Arquivos de Origem\Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayDinamico.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos</Filter>
+    </ClCompile>
+    <ClCompile Include="ParametrosPorReferencia.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos</Filter>
+    </ClCompile>
+    <ClCompile Include="SobreCarga.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos</Filter>
+    </ClCompile>
+    <ClCompile Include="Ponteiros.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos</Filter>
+    </ClCompile>
+    <ClCompile Include="PonteirosParaFuncoes.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos</Filter>
+    </ClCompile>
+    <ClCompile Include="NulOuNull.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaExercicio5.cpp">
+      <Filter>Arquivos de Origem\Exercicios</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AreaCircunferencia.h">
@@ -48,6 +75,27 @@
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
     <ClInclude Include="Exercicios.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="ParametrosPorReferencia.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SobreCarga.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Ponteiros.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayDinamico.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="PonteirosParaFuncoes.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="NulOuNull.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaExercicio5.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>

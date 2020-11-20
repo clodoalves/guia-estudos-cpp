@@ -13,7 +13,7 @@ const double POLEGADAS_PARA_METRO = 39.37;
 //Conteudos abordados: Composicao de um programa, variaveis, Constantes e estruturas de decisao
 
 //1) Crie um programa para o jogo PEDRA, PAPEL E TESOURA
-void ExecutarExercicio1()
+void ExecutarExercicio1_1()
 {
 	string opcoesJogo("PEDRA, PAPEL, TESOURA");
 	string opcaoJogador1;
@@ -80,7 +80,7 @@ void ExecutarExercicio1()
 }
 
 //2) Faça um programa para receber três números e listar o maior, médio e menor
-void ExecutarExercicio2()
+void ExecutarExercicio1_2()
 {
 	int primeiroNumero = 0;
 	int	segundoNumero = 0;
@@ -161,7 +161,7 @@ void ExecutarExercicio2()
 }
 
 //3) Faça um programa para converter de polegadas para metros
-void ExecutarExercicio3() 
+void ExecutarExercicio1_3() 
 {
 	double polegada, metro;
 
@@ -177,7 +177,7 @@ void ExecutarExercicio3()
 }
 
 //4) Faça um programa para converter uma temperatura Celsius para Fahrenheit e vice-versa
-void ExecutarExercicio4() 
+void ExecutarExercicio1_4() 
 {
 	string opcao;
 	double temperatura, temperaturaConvertida;
