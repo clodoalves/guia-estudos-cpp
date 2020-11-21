@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AreaCircunferencia.cpp" />
+    <ClCompile Include="Arquivo.cpp" />
     <ClCompile Include="ArrayDinamico.cpp" />
     <ClCompile Include="ListaExercicio5.cpp" />
     <ClCompile Include="ListaExercicios1.cpp" />
@@ -153,9 +154,12 @@
     <ClCompile Include="Ponteiros.cpp" />
     <ClCompile Include="PonteirosParaFuncoes.cpp" />
     <ClCompile Include="SobreCarga.cpp" />
+    <ClCompile Include="StringEstiloC.cpp" />
+    <ClCompile Include="StringEstiloCpp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AreaCircunferencia.h" />
+    <ClInclude Include="Arquivo.h" />
     <ClInclude Include="ArrayDinamico.h" />
     <ClInclude Include="Exercicios.h" />
     <ClInclude Include="FormulaBhaskara.h" />
@@ -166,6 +170,11 @@
     <ClInclude Include="Ponteiros.h" />
     <ClInclude Include="PonteirosParaFuncoes.h" />
     <ClInclude Include="SobreCarga.h" />
+    <ClInclude Include="StringEstiloC.h" />
+    <ClInclude Include="StringEstiloCpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="arquivo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

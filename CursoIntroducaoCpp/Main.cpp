@@ -1,23 +1,9 @@
 #include "iostream";
-
-
-void teste(int x)
-{
-	x = 10;
-}
-
-void testePonteiro(int* x)
-{
-	*x = 10;
-}
+#include "Arquivo.h";
 
 void main()
 {	  
-	int y = 0;
-
-	testePonteiro(&y);
-
-	std::cout << "valor de y: " << y;
+	void exemplo7_2();
 }
 
 

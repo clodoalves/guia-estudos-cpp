@@ -9,10 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Arquivos de Recurso">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Arquivos de Origem\Samples">
       <UniqueIdentifier>{3af2ce30-657e-4f40-b4fb-fce5927aaba1}</UniqueIdentifier>
     </Filter>
@@ -21,6 +17,16 @@
     </Filter>
     <Filter Include="Arquivos de Origem\Samples\Conteudos">
       <UniqueIdentifier>{f72965d6-9805-462c-a493-64e052a104c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Samples\Conteudos\6 - Strings">
+      <UniqueIdentifier>{4cc634eb-b5e1-41b1-9da2-91d05e384266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Samples\Conteudos\7 - Arquivos">
+      <UniqueIdentifier>{9f29e7e4-9e7c-4769-ac35-9936686b1dc3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +69,15 @@
     <ClCompile Include="ListaExercicio5.cpp">
       <Filter>Arquivos de Origem\Exercicios</Filter>
     </ClCompile>
+    <ClCompile Include="StringEstiloC.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos\6 - Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="StringEstiloCpp.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos\6 - Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Arquivo.cpp">
+      <Filter>Arquivos de Origem\Samples\Conteudos\7 - Arquivos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AreaCircunferencia.h">
@@ -98,5 +113,19 @@
     <ClInclude Include="ListaExercicio5.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
+    <ClInclude Include="StringEstiloC.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="StringEstiloCpp.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Arquivo.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="arquivo.txt">
+      <Filter>Arquivos de Origem\Samples\Conteudos\7 - Arquivos</Filter>
+    </Text>
   </ItemGroup>
 </Project>
