@@ -151,6 +151,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="NulOuNull.cpp" />
     <ClCompile Include="ParametrosPorReferencia.cpp" />
+    <ClCompile Include="Pessoa.cpp" />
     <ClCompile Include="Ponteiros.cpp" />
     <ClCompile Include="PonteirosParaFuncoes.cpp" />
     <ClCompile Include="SobreCarga.cpp" />
@@ -167,14 +168,12 @@
     <ClInclude Include="ListaExercicio5.h" />
     <ClInclude Include="NulOuNull.h" />
     <ClInclude Include="ParametrosPorReferencia.h" />
+    <ClInclude Include="Pessoa.h" />
     <ClInclude Include="Ponteiros.h" />
     <ClInclude Include="PonteirosParaFuncoes.h" />
     <ClInclude Include="SobreCarga.h" />
     <ClInclude Include="StringEstiloC.h" />
     <ClInclude Include="StringEstiloCpp.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="arquivo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
